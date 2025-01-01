@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital_product_store_site</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <!-- main  -->
+    <div class="main h-full w-full ">
+        <!-- section1 -->
+        <div class="section1 h-full w-full">
+            <!-- nav -->
+            <div class="nav w-full px-10 py-4  flex justify-between items-center">
+                <h2 class="text-xl font-bold ">DigitalStore</span></h2>
+                <div
+                    class="nav_links   hidden md:inline  md:flex md:gap-12 md:items-center md:font-medium text-md">
+                    <a class="hover:text-[#e71d36]" href="#">Products</a>
+                    <a class="hover:text-[#e71d36]" href="#">Features</a>
+                    <a class="hover:text-[#e71d36]" href="#">Membership</a>
+                    <a class="hover:text-[#e71d36]" href="#">Blog</a>
+                    <a class="hover:text-[#e71d36]" href="#">Contact</a>
+
+
+                </div>
+                <div
+                    class="div nav_links  hidden md:inline  md:flex md:gap-12 md:items-center md:font-medium text-md">
+                    <button class="hover:text-[#e71d36]">Sign In</button>
+                    <button
+                        class=" px-4 py-1.5  rounded-2xl bg-[#0D0C22] font-semibold  text-white text-sm  hover:text-black hover:bg-[#D8D5CE]">Sign
+                        Up</button>
+                </div>
+                <i class="ri-menu-line text-white text-xl font-semibold md:hidden"></i>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
